@@ -47,3 +47,12 @@ li {
   padding: 0 2.4rem;
 }
 
+.grid{
+  display: grid;
+  padding: 0 2.4rem;
+  gap:10px;
+}
+
+.grid-three--cols{
+  grid-template-columns: repeat(3,1fr);
+}

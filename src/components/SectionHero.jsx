@@ -13,12 +13,12 @@ const SectionHero = () => {
           Organize your work <br />
           With us
         </h1>
-        <p>
+        <p className="para">
           Remember everything and tackle any project with your notes, tasks, and
           schedule all in one place.
         </p>
         <button className="button-hero">Download App</button>
-        <p>By downloading App, you agree to the terms and conditions.</p>
+        <p className="para">By downloading App, you agree to the terms and conditions.</p>
       </div>
     </section>
   );

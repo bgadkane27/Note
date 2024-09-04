@@ -1,0 +1,38 @@
+.card {
+  border-radius: 1rem;
+  padding: 1.2rem;
+  box-shadow: rgba(245, 245, 245, 0.3) 0px 5px 15px;
+  background-color: rgb(128, 128, 128);
+}
+
+img {
+  width: 100%;
+}
+h2 {
+  font-size: 1.6rem;
+}
+h3 {
+  padding: 0.5rem 0;
+}
+p {
+  font-size: 1.4rem;
+  padding: 0.2rem 0;
+  font-style: italic;
+}
+
+.super-hit {
+  background-color: green;
+}
+
+.average {
+  background-color: rgb(247, 223, 84);
+}
+
+.rating {
+  color: #000;
+  margin-left: 0.5rem;
+  padding: 0.3rem 1rem;
+  border-radius: 2rem;
+  display: inline-block;
+  align-items: center;
+}
