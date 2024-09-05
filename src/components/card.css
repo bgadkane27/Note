@@ -14,11 +14,11 @@ h2 {
 h3 {
   padding: 0.5rem 0;
 }
-p {
+/* p {
   font-size: 1.4rem;
   padding: 0.2rem 0;
   font-style: italic;
-}
+} */
 
 .super-hit {
   background-color: green;

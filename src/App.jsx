@@ -6,6 +6,8 @@ import "./components/sectionhero.css";
 import Header from "./components/Header";
 import SectionHero from "./components/SectionHero";
 import Card from "./components/Card";
+import { EventHandling } from "./components/EventHandling";
+import ConfirmationDialog from "./components/ConfirmationDialog";
 
 function App() {
   return (
@@ -38,6 +40,8 @@ function App() {
           seriesDesc="The Paris 2024 Paralympic Games, which will take place between 28 August and 8 September, will bring together as many as 4,400 athletes from around the world."
         />
       </div>
+      {/* <EventHandling />       */}
+      <ConfirmationDialog />
     </>
   );
 }
