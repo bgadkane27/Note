@@ -8,6 +8,7 @@ import SectionHero from "./components/SectionHero";
 import Card from "./components/Card";
 import { EventHandling } from "./components/EventHandling";
 import ConfirmationDialog from "./components/ConfirmationDialog";
+import User from "./components/User";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
       </div>
       {/* <EventHandling />       */}
       <ConfirmationDialog />
+      <User />
     </>
   );
 }
