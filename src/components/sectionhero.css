@@ -1,4 +1,4 @@
-.section-hero{
+/* .section-hero{
     width: 100%;
     height: 85vh;
     display: flex;
@@ -32,12 +32,11 @@
     font-weight:500;
     transition: 0.5s linear;
 }
-
-/* button:hover{
+ button:hover{
     box-shadow: 5px 5px #fff;
-} */
+} 
 
 .notes{
     display: flex;
     align-items: flex-start;
-}
+} */

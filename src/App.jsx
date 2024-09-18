@@ -9,11 +9,12 @@ import Card from "./components/Card";
 import { EventHandling } from "./components/EventHandling";
 import ConfirmationDialog from "./components/ConfirmationDialog";
 import User from "./components/User";
+import Todo from "./projects/Todo/Todo";
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <SectionHero />
       <div className="grid grid-three--cols">
         <Card
@@ -41,9 +42,10 @@ function App() {
           seriesDesc="The Paris 2024 Paralympic Games, which will take place between 28 August and 8 September, will bring together as many as 4,400 athletes from around the world."
         />
       </div>
-      {/* <EventHandling />       */}
+      <EventHandling />      
       <ConfirmationDialog />
-      <User />
+      <User /> */}
+      <Todo />
     </>
   );
 }
