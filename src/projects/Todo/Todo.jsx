@@ -3,10 +3,16 @@ import "./todo.css";
 import { useEffect } from "react";
 import { MdCancel } from "react-icons/md";
 
+const todoKey="todoData";
+
 export default function Todo() {
   const [dateTime, setDateTime] = useState("");
   const [input, setInput] = useState("");
-  const [task, setTask] = useState([]);
+  const [task, setTask] = useState(()=>{
+    const rawData=localStorage.getItem(todoKey);
+    if(!rawData) return []
+    return JSON.parse(rawData);
+  });
 
 
   // Real time clock
@@ -34,6 +40,9 @@ export default function Todo() {
     setInput("");
   };
 
+  localStorage.setItem(todoKey, JSON.stringify(task));
+
+
   const handleTaskDelete = (value) => {
     const currentTask = task.filter((curTask) => curTask !== value);
     setTask(currentTask);
@@ -53,6 +62,8 @@ export default function Todo() {
             <input
               type="text"
               maxLength={10}
+              pattern="[A-Za-z]+"
+              title="only alphabets are allowed and maximum characters 10 only"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Add a items"
