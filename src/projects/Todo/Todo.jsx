@@ -62,7 +62,7 @@ export default function Todo() {
             <input
               type="text"
               maxLength={10}
-              pattern="[A-Za-z]+"
+              pattern="[A-Za-z ]+"
               title="only alphabets are allowed and maximum characters 10 only"
               value={input}
               onChange={(e) => setInput(e.target.value)}
